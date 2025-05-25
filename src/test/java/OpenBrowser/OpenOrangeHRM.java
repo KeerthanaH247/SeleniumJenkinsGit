@@ -18,6 +18,7 @@ public class OpenOrangeHRM {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
+		System.out.println("OrangeHRM opened successfully!!!!");
 		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 		driver.quit();
 	}
