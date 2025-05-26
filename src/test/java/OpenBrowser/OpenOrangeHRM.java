@@ -21,5 +21,6 @@ public class OpenOrangeHRM {
 		System.out.println("OrangeHRM opened successfully!!!!");
 		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 		driver.quit();
+		System.out.println("Browser closed succesfully!!!");
 	}
 }
