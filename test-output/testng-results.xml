@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-26T20:37:28 IST" name="Default suite" finished-at="2025-05-26T20:37:36 IST" duration-ms="8435">
+  <suite started-at="2025-05-27T07:41:21 IST" name="OrangeHRM Suite" finished-at="2025-05-27T07:41:37 IST" duration-ms="15953">
     <groups>
     </groups>
-    <test started-at="2025-05-26T20:37:28 IST" name="Default test" finished-at="2025-05-26T20:37:36 IST" duration-ms="8435">
+    <test started-at="2025-05-27T07:41:21 IST" name="Open Chrome" finished-at="2025-05-27T07:41:29 IST" duration-ms="7753">
       <class name="OpenBrowser.OpenOrangeHRM">
-        <test-method signature="open(java.lang.String)[pri:0, instance:OpenBrowser.OpenOrangeHRM@fbd1f6]" started-at="2025-05-26T20:37:28 IST" name="open" finished-at="2025-05-26T20:37:36 IST" duration-ms="8363" status="PASS">
+        <test-method signature="open(java.lang.String)[pri:0, instance:OpenBrowser.OpenOrangeHRM@fbd1f6]" started-at="2025-05-27T07:41:21 IST" name="open" finished-at="2025-05-27T07:41:29 IST" duration-ms="7690" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -19,6 +19,14 @@
           </reporter-output>
         </test-method> <!-- open -->
       </class> <!-- OpenBrowser.OpenOrangeHRM -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Open Chrome -->
+    <test started-at="2025-05-27T07:41:29 IST" name="Youtube Search test" finished-at="2025-05-27T07:41:37 IST" duration-ms="8172">
+      <class name="Youtube.SearchButton">
+        <test-method signature="searchYoutube()[pri:0, instance:Youtube.SearchButton@63070bab]" started-at="2025-05-27T07:41:29 IST" name="searchYoutube" finished-at="2025-05-27T07:41:37 IST" duration-ms="8165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchYoutube -->
+      </class> <!-- Youtube.SearchButton -->
+    </test> <!-- Youtube Search test -->
+  </suite> <!-- OrangeHRM Suite -->
 </testng-results>

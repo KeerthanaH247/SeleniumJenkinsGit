@@ -6,4 +6,10 @@
             <class name="OpenBrowser.OpenOrangeHRM"/>
         </classes>
     </test>
+    <test name="Youtube Search test">
+    <classes>
+    <class name="Youtube.SearchButton">
+    </class>
+    </classes>
+    </test>
 </suite>
